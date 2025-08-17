@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional motion graphics designer portfolio showcasing creative video content, animations, and visual effects.">
+    <meta name="keywords" content="motion graphics, video design, animation, visual effects, portfolio">
+    <meta name="author" content="Motion Graphics Designer">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Motion Graphics Designer - Portfolio">
+    <meta property="og:description" content="Professional motion graphics designer portfolio showcasing creative video content, animations, and visual effects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Motion Graphics Designer - Portfolio">
+    <meta name="twitter:description" content="Professional motion graphics designer portfolio showcasing creative video content, animations, and visual effects.">
+    
+    <title>Motion Graphics Designer - Portfolio</title>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%234F46E5'/></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Motion Graphics Designer",
+        "jobTitle": "Motion Graphics Designer",
+        "description": "Professional motion graphics designer specializing in video content, animations, and visual effects",
+        "url": "",
+        "sameAs": []
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__brand">
+                <h1 class="nav__title">Portfolio</h1>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#showcase" class="nav__link">Work</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__content">
+                <h1 id="hero-title" class="hero__title">
+                    Motion Graphics
+                    <span class="hero__title--highlight">Designer</span>
+                </h1>
+                <p class="hero__description">
+                    Crafting compelling visual stories through innovative motion graphics, 
+                    animations, and video design that captivate audiences and drive results.
+                </p>
+                <div class="hero__cta">
+                    <a href="#showcase" class="btn btn--primary">View My Work</a>
+                    <a href="#contact" class="btn btn--secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__shape hero__shape--1"></div>
+                <div class="hero__shape hero__shape--2"></div>
+                <div class="hero__shape hero__shape--3"></div>
+            </div>
+        </section>
+
+        <!-- Portfolio Showcase Grid -->
+        <section id="showcase" class="showcase" aria-labelledby="showcase-title">
+            <div class="container">
+                <h2 id="showcase-title" class="section__title">Featured Work</h2>
+                <p class="section__description">
+                    A collection of my latest motion graphics projects, each crafted with precision and creativity.
+                </p>
+                
+                <div class="showcase__grid" role="region" aria-label="Portfolio showcase">
+                    <!-- Portfolio items will be populated by JavaScript for better performance -->
+                </div>
+                
+                <div class="showcase__loader" aria-hidden="true">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section with Quote -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <h2 id="about-title" class="section__title">About My Process</h2>
+                        <p class="about__description">
+                            With over 5 years of experience in motion graphics and visual storytelling, 
+                            I specialize in creating compelling animations that bring brands to life. 
+                            My approach combines technical expertise with creative vision to deliver 
+                            results that exceed expectations.
+                        </p>
+                        
+                        <div class="about__stats">
+                            <div class="stat">
+                                <span class="stat__number">50+</span>
+                                <span class="stat__label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number">20+</span>
+                                <span class="stat__label">Happy Clients</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number">5+</span>
+                                <span class="stat__label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about__quote">
+                        <blockquote class="quote">
+                            <p class="quote__text">
+                                "Working with this designer was an absolute game-changer for our brand. 
+                                The motion graphics brought our vision to life in ways we never imagined possible."
+                            </p>
+                            <cite class="quote__author">
+                                <span class="quote__name">Sarah Johnson</span>
+                                <span class="quote__title">Creative Director, TechCorp</span>
+                            </cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Q&A Section -->
+        <section class="pricing" aria-labelledby="pricing-title">
+            <div class="container">
+                <h2 id="pricing-title" class="section__title">Pricing & FAQ</h2>
+                <p class="section__description">
+                    Common questions about my services and pricing structure.
+                </p>
+                
+                <div class="faq">
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" type="button">
+                            What's included in a typical motion graphics project?
+                            <span class="faq__icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Every project includes concept development, storyboarding, animation, sound design integration, and multiple revision rounds. You'll receive final files in all required formats.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" type="button">
+                            How long does a typical project take?
+                            <span class="faq__icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Project timelines vary based on complexity. Simple animations take 1-2 weeks, while complex motion graphics projects typically require 3-6 weeks from concept to completion.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" type="button">
+                            What are your rates?
+                            <span class="faq__icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Rates start at $500 for simple animations and $2,000+ for complex motion graphics projects. I provide detailed quotes based on your specific requirements and timeline.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" type="button">
+                            Do you work with rush orders?
+                            <span class="faq__icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Yes, I can accommodate urgent projects with a 50% rush fee. Please contact me to discuss your timeline and requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section__title">Let's Create Something Amazing</h2>
+                <p class="section__description">
+                    Ready to bring your vision to life? Get in touch and let's discuss your project.
+                </p>
+                
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Get In Touch</h3>
+                        <div class="contact__item">
+                            <span class="contact__label">Email</span>
+                            <a href="mailto:hello@motiondesigner.com" class="contact__link">hello@motiondesigner.com</a>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__label">Phone</span>
+                            <a href="tel:+1234567890" class="contact__link">+1 (234) 567-890</a>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__label">Response Time</span>
+                            <span class="contact__text">Within 24 hours</span>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" aria-label="Contact form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Name *</label>
+                            <input type="text" id="name" name="name" class="form__input" required aria-required="true">
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email *</label>
+                            <input type="email" id="email" name="email" class="form__input" required aria-required="true">
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="project-type" class="form__label">Project Type</label>
+                            <select id="project-type" name="project-type" class="form__select">
+                                <option value="">Select project type</option>
+                                <option value="motion-graphics">Motion Graphics</option>
+                                <option value="logo-animation">Logo Animation</option>
+                                <option value="explainer-video">Explainer Video</option>
+                                <option value="social-media">Social Media Content</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="budget" class="form__label">Budget Range</label>
+                            <select id="budget" name="budget" class="form__select">
+                                <option value="">Select budget range</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-3000">$1,000 - $3,000</option>
+                                <option value="3000-5000">$3,000 - $5,000</option>
+                                <option value="5000+">$5,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Project Details *</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="5" required aria-required="true" placeholder="Tell me about your project, timeline, and goals..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                        
+                        <div class="form__status" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h2 class="footer__title">Motion Graphics Designer</h2>
+                    <p class="footer__description">
+                        Creating compelling visual stories through innovative design.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <h3 class="footer__subtitle">Quick Links</h3>
+                    <ul class="footer__menu">
+                        <li><a href="#showcase" class="footer__link">Work</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h3 class="footer__subtitle">Follow</h3>
+                    <ul class="social">
+                        <li><a href="#" class="social__link" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" class="social__link" aria-label="LinkedIn">LinkedIn</a></li>
+                        <li><a href="#" class="social__link" aria-label="Dribbble">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    © 2024 Motion Graphics Designer. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightbox-title">
+        <div class="lightbox__overlay" aria-label="Close lightbox"></div>
+        <div class="lightbox__content">
+            <button class="lightbox__close" aria-label="Close lightbox" type="button">&times;</button>
+            <div class="lightbox__media"></div>
+            <div class="lightbox__info">
+                <h3 id="lightbox-title" class="lightbox__title"></h3>
+                <p class="lightbox__description"></p>
+                <div class="lightbox__tags"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
